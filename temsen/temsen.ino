@@ -3,8 +3,8 @@
 #include <ESP8266WiFi.h>
 #define FIREBASE_HOST "gelatos-shop.firebaseio.com"
 #define FIREBASE_AUTH "vHSeKCpLBaCP5MI5tinrl3XTxAF8VWxG4Y5Sjp4H"
-#define WIFI_SSID "V2027"
-#define WIFI_PASSWORD "00000000"
+#define WIFI_SSID "your_wifi_name"
+#define WIFI_PASSWORD "your_wifi_password"
 #define DHTPIN D7
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
